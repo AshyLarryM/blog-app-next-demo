@@ -7,10 +7,10 @@ We recommend using **Static Generation** (with and without data) whenever possib
 
 You can use Static Generation for many types of pages, including:
 
--Marketing
--Blog Posts
--E-commerce product listings
--Help and documentation
+- Marketing
+- Blog Posts
+- E-commerce product listings
+- Help and documentation
 
 You should ask youself: "Can I pre-render this page **ahead** of a user's request?"  If the answer is yes, then you should choose Static Generation/
 
