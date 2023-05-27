@@ -1,3 +1,4 @@
+import MyProfilePic from './components/MyProfilePic'
 import Navbar from './components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="dark:bg-slate-800">
         <Navbar />
+        <MyProfilePic />
         {children}
         </body>
     </html>
