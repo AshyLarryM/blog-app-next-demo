@@ -1,4 +1,7 @@
-
+---
+title: 'In Depth Guide on using Server Actions in Next.JS 13'	
+date: '6/5-2023'
+---
 # Server Actions Demonstration
 This project demonstrates creating a TODO list using Get and Post methods to a PostgreSQL database using Next.js 13's server actions, TypeScript, and Prisma as an ORM.
 

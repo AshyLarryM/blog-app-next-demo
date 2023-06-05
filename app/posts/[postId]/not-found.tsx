@@ -1,6 +1,6 @@
 
 export default function NotFound() {
   return (
-    <h1>THe requested page does not exist.</h1>
+    <h1>The requested page does not exist.</h1>
   )
 }
