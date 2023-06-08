@@ -8,7 +8,7 @@ export default function page() {
       <div className="space-y-1">
         <h1 className="z-10 py-2 text-3xl font-bold text-center text-transparent duration-1000 
         bg-white cursor-default text-stroke animate-title sm:text-5xl md:6xl whitespace-nowrap bg-clip-text">
-          Join the Email Newsletter for weekly
+          Join for Email Newsletter
         </h1>
         <h2 className="z-10 py-2 text-4xl font-bold text-center 
         text-transparent duration-1000 bg-white cursor-default sm:text-6xl md:7xl 
