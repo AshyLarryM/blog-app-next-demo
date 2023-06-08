@@ -1,0 +1,24 @@
+import React from 'react'
+import NewsletterForm from '../components/NewsletterForm'
+import Socials from '../components/Socials'
+
+export default function page() {
+  return (
+    <main className="bg-slate-950 text-white flex flex-col items-center justify-center p-10 min-h-screen">
+      <div className="space-y-1">
+        <h1 className="z-10 py-2 text-3xl font-bold text-center text-transparent duration-1000 
+        bg-white cursor-default text-stroke animate-title sm:text-5xl md:6xl whitespace-nowrap bg-clip-text">
+          Join the Email Newsletter for weekly
+        </h1>
+        <h2 className="z-10 py-2 text-4xl font-bold text-center 
+        text-transparent duration-1000 bg-white cursor-default sm:text-6xl md:7xl 
+        whitespace-nowrap bg-clip-text bg-gradient-to-r 
+        from-sky-300 to-sky-700 animate-fade-in-3">
+          Blog Updates
+        </h2>
+      </div>
+      <NewsletterForm/>
+      <Socials/>
+    </main>
+  )
+}
