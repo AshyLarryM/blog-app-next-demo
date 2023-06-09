@@ -49,14 +49,14 @@ export default async function Post({ params }: { params: { postId: string }}) {
 
   return (
     <main className='px-6 prose prose-xl prose-slate dark:prose-invert mx-auto'>
-        <h1 className='text-3xl mt-24 mb-0'>{title}</h1>
+        <h1 className='text-3xl mt-24 mb-0 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500'>{title}</h1>
         <p className='mt-0'>
             {pubDate}
         </p>
         <article>
             <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
             <p>
-                <Link href='/'>Back to home</Link>
+                <Link className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700' href='/'>Back to home</Link>
             </p>
         </article>
     </main>

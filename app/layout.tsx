@@ -1,4 +1,3 @@
-import MyProfilePic from './components/MyProfilePic'
 import Navbar from './components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -10,6 +9,7 @@ export const metadata = {
   description: "Created by Lawrence Markel",
 }
 
+
 export default function RootLayout({
   children,
 }: {
@@ -20,6 +20,7 @@ export default function RootLayout({
       <body className="dark:bg-slate-950">
         <Navbar />
         {/* <MyProfilePic /> */}
+        
         {children}
         </body>
     </html>

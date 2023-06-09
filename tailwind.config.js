@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        "outline-gray-focus": "inset 0 0 0 1.5px #006F94",
+        "outline-gray-focus": "inset 0 0 0 1.5px #c402b7",
         "outline-gray": "inset 0 0 0 1.5px #001C25",
       },
       animation: {

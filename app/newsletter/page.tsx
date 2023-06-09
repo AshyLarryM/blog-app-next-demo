@@ -12,8 +12,7 @@ export default function page() {
         </h1>
         <h2 className="z-10 py-2 text-4xl font-bold text-center 
         text-transparent duration-1000 bg-white cursor-default sm:text-6xl md:7xl 
-        whitespace-nowrap bg-clip-text bg-gradient-to-r 
-        from-sky-300 to-sky-700 animate-fade-in-3">
+        whitespace-nowrap bg-clip-text bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700 animate-fade-in-3">
           Blog Updates
         </h2>
       </div>
