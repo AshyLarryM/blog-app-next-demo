@@ -10,7 +10,7 @@ date: '6/5-2023'
 - Prisma
 - PostgreSQL Database
 - Server Components, Client Components, & Server Actions
-### [Create a todo list using Server Actions - GitHub Link with docuemntation](https://github.com/AshyLarryM/server-actions-Next.js-13.4)
+### [Create a todo list using Server Actions - GitHub Link with documenntation](https://github.com/AshyLarryM/server-actions-Next.js-13.4)
 **Before we can understand Server Actions in Next.js, we must first understand what a Server component is, and its intended use cases.**
   ## What are server side components?
   By default, **ALL** components created in Next.js 13 are "server side." This means that components and their accompanying code are executed on the server in advance.  This reduces the bundle size for the client, and results in a faster initial load time for the user.  
@@ -68,3 +68,8 @@ This code allows us to submit our form from the server instead of needing to use
 - Server Components, Client Components, & Server Actions
   
 ### [Create a todo list using Server Actions - GitHub Link with docuemntation](https://github.com/AshyLarryM/server-actions-Next.js-13.4)
+
+![App Screenshot](screenshots/emailSignup.png)
+![App Screenshot](screenshots/emailSuccess.png)
+![App Screenshot](screenshots/mailchimpAudience.png)
+![App Screenshot](screenshots/emailFailure.png)
