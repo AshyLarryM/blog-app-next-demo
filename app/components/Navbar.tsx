@@ -72,11 +72,11 @@ export default function Example() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button className='py-2 px-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-xl hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500'>
-          <a href="/newsletter" className="text-md font-bold leading-6 text-slate-200">
-            Sign up <span aria-hidden="true">&rarr;</span>
-          </a>
-          </button>
+          <Link href="/newsletter" className="text-md font-bold leading-6 text-slate-200">
+            <button className='py-2 px-4 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-xl hover:bg-gradient-to-r hover:from-blue-500 hover:via-purple-500 hover:to-pink-500'>
+              Sign up <span aria-hidden="true">&rarr;</span>
+            </button>
+          </Link>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
